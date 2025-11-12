@@ -3,26 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de Vida - Oscar Miguel Toro Torres</title>
+    <meta name="description" content="Hoja de Vida de Oscar Miguel Toro Torres - Ingeniero de Software con más de 8 años de experiencia">
+    <meta name="keywords" content="ingeniero software, desarrollador, C#, .NET, Angular, Java, Spring Boot">
+    <meta name="author" content="Oscar Miguel Toro Torres">
+    <title>CV - Oscar Miguel Toro Torres | Ingeniero de Software</title>
+    
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Estilos -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Oscar Miguel Toro Torres</h1>
-        <p>Ingeniero de software con más de 8 años de experiencia en análisis, diseño y desarrollo de sistemas de información. Especialista en C# (.NET Core), Java (Spring Boot) y Angular, con sólidos conocimientos en bases de datos SQL y NoSQL. Experto en arquitecturas limpias, aplicando diversos fundamentos teóricos que permiten crear soluciones escalables y mantenibles. Amplia experiencia en la nube con Azure y AWS, integrando CI/CD y Kubernetes. Apasionado por la calidad del software y metodologías ágiles (SCRUM). Destacado por su capacidad analítica, resolutiva y compromiso con la excelencia técnica.</p>
     </header>
 
     <div class="cv-container">
+        <div class="name-section">
+            <h1>Oscar Miguel Toro Torres</h1>
+            <p>Ingeniero de software</p>
+        </div>
+
         <aside class="sidebar">
+            <section id="sobre-mi" aria-labelledby="sobre-mi-heading">
+                <h2 id="sobre-mi-heading"><i class="fas fa-user"></i> Sobre mí</h2>
+                <p>Ingeniero de software con más de 8 años de experiencia en análisis, diseño y desarrollo de sistemas de información. Especialista en C# (.NET Core), Java (Spring Boot) y Angular, con sólidos conocimientos en bases de datos SQL y NoSQL. Experto en arquitecturas limpias, aplicando diversos fundamentos teóricos que permiten crear soluciones escalables y mantenibles. Amplia experiencia en la nube con Azure y AWS, integrando CI/CD y Kubernetes. Apasionado por la calidad del software y metodologías ágiles (SCRUM). Destacado por su capacidad analítica, resolutiva y compromiso con la excelencia técnica.</p>
+            </section>
+
+            <section id="habilidades" aria-labelledby="habilidades-heading">
+                <h2 id="habilidades-heading"><i class="fas fa-tools"></i> Habilidades</h2>
+                <div class="skill-category">
+                    <strong>Lenguajes:</strong> C#, Python, Java, TypeScript, HTML/CSS, JS
+                </div>
+                <div class="skill-category">
+                    <strong>Frameworks:</strong> .NET Core, Angular, Spring Boot, Vue
+                </div>
+                <div class="skill-category">
+                    <strong>Bases de Datos:</strong> SQL (PostgreSQL, SQL Server, Oracle), NoSQL (Mongo)
+                </div>
+                <div class="skill-category">
+                    <strong>Herramientas:</strong> Git, Azure DevOps, Docker, Kubernetes, AWS Servicios(Cognito, KMS, Lambda, EC2)
+                </div>
+                <div class="skill-category">
+                    <strong>Metodologías:</strong> SCRUM, TDD, CI/CD
+                </div>
+            </section>
+
+            <section id="competencias" aria-labelledby="competencias-heading">
+                <h2 id="competencias-heading"><i class="fas fa-brain"></i> Competencias</h2>
+                <p>Análisis y diseño de software, POO, SOA, APIs</p>
+                <p>Metodologías ágiles, optimización rendimiento</p>
+                <p>Habilidades analíticas, trabajo en equipo</p>
+            </section>
+
+            <section id="certificaciones" aria-labelledby="certificaciones-heading">
+                <h2 id="certificaciones-heading"><i class="fas fa-certificate"></i> Certificaciones</h2>
+                <p>Scrum Master Professional Certified – Certiprof</p>
+                <p>Fundamentos en administración de base de datos - Universidad Minuto de Dios</p>
+                <p>Calidad en el desarrollo de software – SENA</p>
+            </section>
+
             <section id="contacto" aria-labelledby="contacto-heading">
                 <h2 id="contacto-heading"><i class="fas fa-address-book"></i> Contacto</h2>
-                <p><i class="fas fa-id-card"></i> C.C. 1.121.868.767</p>
+                <p><i class="fas fa-envelope"></i> omigueltoro@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +57 313 496 5969</p>
                 <p><i class="fas fa-map-marker-alt"></i> Villavicencio - META, Colombia</p>
-                <h3>Referencias Familiares</h3>
+                <h3>Referencias</h3>
                 <p>FREDDY PARRA GUEVARA<br>Coordinador TI<br>Cel. 3134157406</p>
-                <p>CLAUDIA MILENA TORO SÁENZ<br>Contadora<br>Cel. 3212412759</p>
-                <h3>Referencias Personales</h3>
                 <p>FEDERICO BENEDETTO<br>Full-Stack Developer<br>Cel. +54 9 3513771306</p>
                 <p>JAIR MONDRAGON<br>Software Architect<br>Cel. 3123168931</p>
             </section>
@@ -35,28 +85,33 @@
                 <h3>Ingeniero de Software - Banco Supervielle – Intive</h3>
                 <p>Córdoba, Argentina</p>
                 <p>• Desarrollo Back-End y Front-End (C# .NET Core, Angular)<br>
-                • Arquitectura SOA, DDD, pruebas TDD con Entity Framework y SQL Server</p>
+                • Arquitectura SOA, DDD, pruebas TDD con Entity Framework y SQL Server<br>
+                <span class="project-highlight">• Proyecto: Portal de servicios - Desarrollo de portal para solicitar QR, pagos electrónicos, terminales POS y venta telefónica. <a href="https://www.supervielle.com.ar/negocios/empresas">Ver sitio</a></span></p>
                 <time datetime="2021-11-27">27 Nov 2021 – Actualmente</time>
             </article>
             <article>
                 <h3>Líder Técnico - Ingeniero de Desarrollo - AND</h3>
                 <p>Bogotá DC, Colombia</p>
                 <p>• Plataformas: Rancher, Consul, Sonar, Kibana, Jira, Confluence, GitLab<br>
-                • SCRUM, CI/CD Azure DevOps, Azure Portal, PostgreSQL, ASP.NET Core, Angular</p>
+                • SCRUM, CI/CD Azure DevOps, Azure Portal, PostgreSQL, ASP.NET Core, Angular<br>
+                <span class="project-highlight">• Proyecto: CEDULA RURAL - Desarrollo sistema gestión desarrollo rural. <a href="https://miregistrorural.minagricultura.gov.co/">Ver sitio</a></span></p>
                 <time datetime="2020-09-15">15 Sep 2020 – 31 Dic 2021</time>
             </article>
             <article>
                 <h3>Ingeniero de Desarrollo - AND</h3>
                 <p>Bogotá DC, Colombia</p>
                 <p>• Front-End: Angular, HTML5, CSS3, JS, JQuery, Bootstrap, SASS<br>
-                • Back-End: C# ASP.NET Core, PostgreSQL, SQL Server, Jira, BitBucket</p>
+                • Back-End: C# ASP.NET Core, PostgreSQL, SQL Server, Jira, BitBucket<br>
+                <span class="project-highlight">• Proyectos: ARCHIVO SINDICAL - Desarrollo sistema gestión sindical. <a href="https://www.mintrabajo.gov.co/web/guest/relaciones-laborales/archivo-sindical">Ver sitio</a><br>
+                • PAIWEB 2.0 - Desarrollo sistema gestión vacunación. <a href="https://paiweb2.paiweb.gov.co/login">Ver sitio</a></span></p>
                 <time datetime="2019-10-05">05 Oct 2019 – 30 Jun 2020</time>
             </article>
             <article>
                 <h3>Ingeniero de Desarrollo - CODALTEC</h3>
                 <p>Villavicencio, Meta, Colombia</p>
                 <p>• Front-End: JS, JQuery, Kendo UI, HTML5, CSS3, Bootstrap<br>
-                • Back-End: C# .Net Core, PL/SQL Oracle, SCRUM, documentación</p>
+                • Back-End: C# .Net Core, PL/SQL Oracle, SCRUM, documentación<br>
+                <span class="project-highlight">• Proyecto: SALUD.SIS - Diseño y desarrollo sistema gestión salud integrada. <a href="https://saludsis.mil.co/">Ver sitio</a></span></p>
                 <time datetime="2018-01-26">26 Ene 2018 – 31 Oct 2019</time>
             </article>
             <article>
@@ -74,90 +129,35 @@
             </article>
         </section>
 
-        <section id="educacion" aria-labelledby="educacion-heading">
+                <section id="educacion" aria-labelledby="educacion-heading">
             <h2 id="educacion-heading"><i class="fas fa-graduation-cap"></i> Educación</h2>
             <article>
-                <h3>Especialista en Ingeniería de Software - Universidad de los Llanos</h3>
-                <p>Villavicencio, Meta, Colombia</p>
-                <time datetime="2021-06-25">25-06-2021</time>
+                <h3><i class="fas fa-graduation-cap"></i> Especialización en Ingeniería de Software</h3>
+                <p>Universidad de los Llanos, Villavicencio, Meta, Colombia</p>
+                <time datetime="2021-06-25">Junio 2021</time>
             </article>
             <article>
-                <h3>Ingeniería de Sistemas - Universidad del Tolima</h3>
-                <p>Convenio con la Universidad Minuto de Dios, Villavicencio, Meta, Colombia</p>
-                <time datetime="2016-11-19">19-11-2016</time>
+                <h3><i class="fas fa-university"></i> Ingeniería de Sistemas</h3>
+                <p>Universidad del Tolima (Convenio Universidad Minuto de Dios), Villavicencio, Meta, Colombia</p>
+                <time datetime="2016-11-19">Noviembre 2016</time>
             </article>
             <article>
-                <h3>Tecnología en Informática - Universidad Minuto de Dios</h3>
-                <p>Villavicencio, Meta, Colombia</p>
-                <time datetime="2013-07-26">26-07-2013</time>
+                <h3><i class="fas fa-laptop-code"></i> Tecnólogo en Informática</h3>
+                <p>Universidad Minuto de Dios, Villavicencio, Meta, Colombia</p>
+                <time datetime="2013-07-26">Julio 2013</time>
             </article>
             <article>
-                <h3>Bachiller Técnico con Especialidad en Electrónica - Instituto Técnico Industrial</h3>
-                <p>Villavicencio, Meta, Colombia</p>
-                <time datetime="2008-02-01">01-02-2008</time>
+                <h3><i class="fas fa-cogs"></i> Bachiller Técnico en Electrónica</h3>
+                <p>Instituto Técnico Industrial, Villavicencio, Meta, Colombia</p>
+                <time datetime="2008-02-01">Febrero 2008</time>
             </article>
-        </section>
-
-        <section id="proyectos" aria-labelledby="proyectos-heading">
-            <h2 id="proyectos-heading"><i class="fas fa-project-diagram"></i> Proyectos</h2>
-            <article>
-                <h3>COBRAR CON QR - Intive - Supervielle</h3>
-                <p>Desarrollo aplicativo para registro de comercios y cobro con QR. <a href="https://www.supervielle.com.ar/negocios/empresas">Ver sitio</a></p>
-            </article>
-            <article>
-                <h3>SALUD.SIS - DIGSA</h3>
-                <p>Diseño y desarrollo sistema gestión salud integrada. <a href="https://saludsis.mil.co/">Ver sitio</a></p>
-            </article>
-            <article>
-                <h3>CEDULA RURAL - AND - Min. Agricultura</h3>
-                <p>Desarrollo sistema gestión desarrollo rural. <a href="https://miregistrorural.minagricultura.gov.co/">Ver sitio</a></p>
-            </article>
-            <article>
-                <h3>ARCHIVO SINDICAL - AND - Min. Trabajo</h3>
-                <p>Desarrollo sistema gestión sindical (en proceso).</p>
-            </article>
-            <article>
-                <h3>PAIWEB 2.0 - AND - Min. Salud</h3>
-                <p>Desarrollo sistema gestión vacunación. <a href="https://paiweb2.paiweb.gov.co/login">Ver sitio</a></p>
-            </article>
-        </section>
-
-        <section id="certificaciones" aria-labelledby="certificaciones-heading">
-            <h2 id="certificaciones-heading"><i class="fas fa-certificate"></i> Certificaciones</h2>
-            <ul>
-                <li>Scrum Master Professional Certified – Certiprof</li>
-                <li>Fundamentos en administración de base de datos - Universidad Minuto de Dios</li>
-                <li>Calidad en el desarrollo de software – SENA</li>
-            </ul>
-        </section>
-
-                <section id="habilidades" aria-labelledby="habilidades-heading">
-            <h2 id="habilidades-heading"><i class="fas fa-tools"></i> Habilidades</h2>
-            <ul>
-                <li>Java, Spring Boot, Thymeleaf, API Rest</li>
-                <li>C#, ASP .NET Core</li>
-                <li>HTML, CSS3, SASS, JS, JQuery, Bootstrap, DataTable</li>
-                <li>TypeScript, Angular, PrimeNg, Vue-PrimeVue</li>
-                <li>Git, SQL/NoSQL (MySQL, PostgreSQL, Oracle, SQL Server, Mongo)</li>
-                <li>Azure (Portal, CLI, DevOps), Visual Studio 2019/2022, VS Code</li>
-                <li>Atlassian (Jira, Confluence), GitHub, GitLab, Windows/Linux</li>
-            </ul>
-        </section>
-
-        <section id="competencias-clave" aria-labelledby="competencias-clave-heading">
-            <h2 id="competencias-clave-heading"><i class="fas fa-brain"></i> Competencias</h2>
-            <ul>
-                <li>Ciclos de vida desarrollo software, análisis requisitos, POO, SOA, APIs</li>
-                <li>Metodologías ágiles (SCRUM), gestión datos, optimización rendimiento</li>
-                <li>Habilidades analíticas, lógicas, matemáticas; trabajo en equipo</li>
-            </ul>
         </section>
 
         </main>
     </div>
 
     <footer>
-        <button id="print-button">Imprimir CV</button>
+        <button id="print-button"><i class="fas fa-print"></i> Imprimir CV</button>
     </footer>
 
     <script src="js/main.js"></script>
