@@ -1,0 +1,17 @@
+{
+  "name": "mini-crud",
+  "version": "1.0.0",
+  "description": "Mini CRUD demo that simulates SharePoint list CRUD operations using a simple Express server and a static frontend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Oscar Miguel Toro Torres",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.22"
+  }
+}
