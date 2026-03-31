@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Initialize i18n
+    I18n.init();
+
     // Funcionalidad de impresión
     const printButton = document.getElementById('print-button');
     if (printButton) {

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hoja de Vida de Oscar Miguel Toro Torres - Ingeniero de Software con más de 9 años de experiencia">
-    <meta name="keywords" content="ingeniero software, desarrollador, C#, .NET, Angular, Java, Spring Boot">
+    <meta name="description" data-i18n-attr="content:meta.description" content="Resume of Oscar Miguel Toro Torres - Software Engineer with over 10 years of experience">
+    <meta name="keywords" content="software engineer, developer, C#, .NET, Angular, Java, Spring Boot">
     <meta name="author" content="Oscar Miguel Toro Torres">
-    <title>CV - Oscar Miguel Toro Torres | Ingeniero de Software</title>
+    <title data-i18n="meta.title">CV - Oscar Miguel Toro Torres | Software Engineer</title>
     
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,62 +23,71 @@
 
     <div class="cv-container">
         <div class="name-section">
+            <div class="lang-switcher" role="navigation" aria-label="Language selector">
+                <button id="lang-en" class="lang-btn active" data-lang="en" title="English" aria-label="Switch to English">
+                    EN
+                </button>
+                <span class="lang-divider">|</span>
+                <button id="lang-es" class="lang-btn" data-lang="es" title="Español" aria-label="Cambiar a Español">
+                    ES
+                </button>
+            </div>
             <h1>Oscar Miguel Toro Torres</h1>
-            <p>Ingeniero de software</p>
+            <p data-i18n="name.role">Software Engineer</p>
         </div>
 
         <aside class="sidebar">
             <section id="sobre-mi" aria-labelledby="sobre-mi-heading">
-                <h2 id="sobre-mi-heading"><i class="fas fa-user"></i> Sobre mí</h2>
-                <p>Ingeniero de software senior con +10 años de experiencia desarrollando soluciones empresariales y financieras de alto impacto. Actualmente en Banco Supervielle (Argentina), especializado en arquitecturas cloud-native, microservicios y sistemas distribuidos con .NET Core, Angular, Flutter, GCP y AWS. Experiencia comprobada implementando Clean Architecture, CQRS/DDD y Event-Driven patterns en entornos de producción críticos. Experto en integración de IA/ML (Vertex AI), automatización DevOps (CI/CD, Kubernetes) y optimización de sistemas de alta concurrencia. Certificado Scrum Master con fuerte enfoque en calidad, escalabilidad y entrega continua de valor.</p>
+                <h2 id="sobre-mi-heading"><i class="fas fa-user"></i> <span data-i18n="sidebar.about.title">About Me</span></h2>
+                <p data-i18n="sidebar.about.text">Senior software engineer with 10+ years of experience developing high-impact enterprise and financial solutions. Currently at Banco Supervielle (Argentina), specialized in cloud-native architectures, microservices, and distributed systems with .NET Core, Angular, Flutter, GCP, and AWS. Proven track record implementing Clean Architecture, CQRS/DDD, and Event-Driven patterns in mission-critical production environments. Expert in AI/ML integration (Vertex AI), DevOps automation (CI/CD, Kubernetes), and optimization of high-concurrency systems. Certified Scrum Master with a strong focus on quality, scalability, and continuous value delivery.</p>
             </section>
 
             <section id="habilidades" aria-labelledby="habilidades-heading">
-                <h2 id="habilidades-heading"><i class="fas fa-tools"></i> Habilidades</h2>
+                <h2 id="habilidades-heading"><i class="fas fa-tools"></i> <span data-i18n="sidebar.skills.title">Skills</span></h2>
                 <div class="skill-category">
-                    <strong>Lenguajes:</strong> C#, Python, Java, TypeScript, Dart, Go, HTML/CSS, JS
+                    <strong data-i18n="sidebar.skills.languages">Languages:</strong> C#, Python, Java, TypeScript, Dart, Go, HTML/CSS, JS
                 </div>
                 <div class="skill-category">
-                    <strong>Frameworks:</strong> .NET Core (6.0/8.0), Angular, Spring Boot, React, Flutter
+                    <strong data-i18n="sidebar.skills.frameworks">Frameworks:</strong> .NET Core (6.0/8.0), Angular, Spring Boot, React, Flutter
                 </div>
                 <div class="skill-category">
-                    <strong>Patrones/Libs:</strong> MediatR, Entity Framework Core, NgRx, Riverpod, AutoMapper, RabbitMQ
+                    <strong data-i18n="sidebar.skills.patterns">Patterns/Libs:</strong> MediatR, Entity Framework Core, NgRx, Riverpod, AutoMapper, RabbitMQ
                 </div>
                 <div class="skill-category">
-                    <strong>Bases de Datos:</strong> SQL (PostgreSQL, SQL Server, Oracle), NoSQL (Mongo, Firestore, DynamoDB)
+                    <strong data-i18n="sidebar.skills.databases">Databases:</strong> SQL (PostgreSQL, SQL Server, Oracle), NoSQL (Mongo, Firestore, DynamoDB)
                 </div>
                 <div class="skill-category">
-                    <strong>Cloud/DevOps:</strong> AWS (Lambda, DynamoDB, S3, SQS, API Gateway, EC2, Cognito, KMS), Firebase, GCP, Azure DevOps, Docker, Kubernetes
+                    <strong data-i18n="sidebar.skills.cloud">Cloud/DevOps:</strong> AWS (Lambda, DynamoDB, S3, SQS, API Gateway, EC2, Cognito, KMS), Firebase, GCP, Azure DevOps, Docker, Kubernetes
                 </div>
                 <div class="skill-category">
-                    <strong>Metodologías:</strong> SCRUM, CI/CD, TDD, BDD, DDD, Clean Architecture, CQRS
+                    <strong data-i18n="sidebar.skills.methodologies">Methodologies:</strong> SCRUM, CI/CD, TDD, BDD, DDD, Clean Architecture, CQRS
                 </div>
             </section>
 
             <section id="competencias" aria-labelledby="competencias-heading">
-                <h2 id="competencias-heading"><i class="fas fa-brain"></i> Competencias</h2>
-                <p>Principios: SOLID, KISS, DRY, Clean Code</p>
-                <p>Análisis y diseño, POO, EDA, SOA, APIs</p>
-                <p>Metodologías ágiles, optimización rendimiento</p>
-                <p>Habilidades analíticas, trabajo en equipo</p>
+                <h2 id="competencias-heading"><i class="fas fa-brain"></i> <span data-i18n="sidebar.competencies.title">Competencies</span></h2>
+                <p data-i18n="sidebar.competencies.principles">Principles: SOLID, KISS, DRY, Clean Code</p>
+                <p data-i18n="sidebar.competencies.analysis">Analysis & design, OOP, EDA, SOA, APIs</p>
+                <p data-i18n="sidebar.competencies.methodologies">Agile methodologies, performance optimization</p>
+                <p data-i18n="sidebar.competencies.soft">Analytical skills, teamwork</p>
             </section>
 
             <section id="certificaciones" aria-labelledby="certificaciones-heading">
-                <h2 id="certificaciones-heading"><i class="fas fa-certificate"></i> Certificaciones</h2>
-                <p>Scrum Master Professional Certified – Certiprof</p>
-                <p>Fundamentos en administración de base de datos - Universidad Minuto de Dios</p>
-                <p>Calidad en el desarrollo de software – SENA</p>
+                <h2 id="certificaciones-heading"><i class="fas fa-certificate"></i> <span data-i18n="sidebar.certifications.title">Certifications</span></h2>
+                <p data-i18n="sidebar.certifications.scrum">Scrum Master Professional Certified – Certiprof</p>
+                <p data-i18n="sidebar.certifications.db">Database Administration Fundamentals - Universidad Minuto de Dios</p>
+                <p data-i18n="sidebar.certifications.quality">Software Development Quality – SENA</p>
             </section>
 
             <section id="contacto" aria-labelledby="contacto-heading">
-                <h2 id="contacto-heading"><i class="fas fa-address-book"></i> Contacto</h2>
+                <h2 id="contacto-heading"><i class="fas fa-address-book"></i> <span data-i18n="sidebar.contact.title">Contact</span></h2>
                 <p><i class="fas fa-envelope"></i> omigueltoro@gmail.com</p>
                 <p><i class="fas fa-phone"></i> +57 313 496 5969</p>
                 <p><i class="fas fa-map-marker-alt"></i> Villavicencio - META, Colombia</p>
-                <h3>Referencias personales</h3>
-                <p>FREDDY PARRA GUEVARA<br>Coordinador TI<br>Cel. 3134157406</p>
-                <p>CLAUDIA TORO SAENZ<br>Contadora<br>Cel. 3212412759</p>
-                <h3>Referencias laborales</h3>
+                <h3 data-i18n="sidebar.contact.personalRef">Personal References</h3>
+                <p>FREDDY PARRA GUEVARA<br><span data-i18n="sidebar.contact.role.coordinator">IT Coordinator</span><br>Cel. 3134157406</p>
+                <p>CLAUDIA TORO SAENZ<br><span data-i18n="sidebar.contact.role.accountant">Accountant</span><br>Cel. 3212412759</p>
+                <h3 data-i18n="sidebar.contact.workRef">Work References</h3>
                 <p>FEDERICO BENEDETTO<br>Full-Stack Developer<br>Cel. +54 9 3513771306</p>
                 <p>JAIR MONDRAGON<br>Software Architect<br>Cel. 3123168931</p>
             </section>
@@ -86,98 +95,98 @@
 
         <main class="main-content">
         <section id="experiencia" aria-labelledby="experiencia-heading">
-            <h2 id="experiencia-heading"><i class="fas fa-briefcase"></i> Experiencia Laboral</h2>
+            <h2 id="experiencia-heading"><i class="fas fa-briefcase"></i> <span data-i18n="main.experience.title">Work Experience</span></h2>
             <article>
                 <div class="article-header">
-                    <h3>Lead Full-Stack Developer - Banco Supervielle – Intive</h3>
-                    <time datetime="2021-11-27">27 Nov 2021 – Actualmente</time>
+                    <h3 data-i18n="main.exp1.role">Lead Full-Stack Developer - Banco Supervielle – Intive</h3>
+                    <time datetime="2021-11-27" data-i18n="main.exp1.date">Nov 27, 2021 – Present</time>
                 </div>
-                <p>Córdoba, Argentina</p>
-                <p>• <strong>Backend:</strong> APIs RESTful y microservicios con .NET Core 6.0/8.0 (Clean Architecture, CQRS + MediatR, Entity Framework Core, OAuth 2.0), funciones serverless AWS Lambda con Python 3.11, integración RabbitMQ y AWS SQS para mensajería asíncrona.<br>
-                • <strong>Frontend:</strong> Angular 12+ con NgRx para gestión de estado, PrimeNG/Material UI, testing con Cypress/Jasmine.<br>
-                • <strong>Mobile:</strong> Arquitectura Clean/DDD en Flutter/Dart con backend Go (GCP Cloud Functions), Firebase (Auth/Firestore), Riverpod, APIs Google (Gmail, Sheets, Drive), seguridad AES-256/JWT.<br>
-                • <strong>Cloud/DevOps:</strong> AWS (Lambda, DynamoDB, S3, SQS, API Gateway, EC2, Cognito, KMS), GCP (Cloud Functions, Vertex AI, APIs), Firebase, Kubernetes (k3s/k8s), Keycloak, Docker, GitLab CI/CD, IBM API Connect, SonarQube.<br>
-                <span class="project-highlight">• <strong>Proyectos:</strong> Online Banking Empresas (adhesión comercios, digitalización, recaudaciones con débitos directos masivos), Portal de servicios (QR, pagos electrónicos, terminales POS). <a href="https://www.supervielle.com.ar/negocios/empresas">Ver sitio</a></span></p>
+                <p data-i18n="main.exp1.location">Córdoba, Argentina</p>
+                <p data-i18n-html="main.exp1.desc">• <strong>Backend:</strong> RESTful APIs and microservices with .NET Core 6.0/8.0 (Clean Architecture, CQRS + MediatR, Entity Framework Core, OAuth 2.0), serverless AWS Lambda functions with Python 3.11, RabbitMQ and AWS SQS integration for asynchronous messaging.<br>
+                • <strong>Frontend:</strong> Angular 12+ with NgRx for state management, PrimeNG/Material UI, testing with Cypress/Jasmine.<br>
+                • <strong>Mobile:</strong> Clean/DDD architecture in Flutter/Dart with Go backend (GCP Cloud Functions), Firebase (Auth/Firestore), Riverpod, Google APIs (Gmail, Sheets, Drive), AES-256/JWT security.<br>
+                • <strong>Cloud/DevOps:</strong> AWS (Lambda, DynamoDB, S3, SQS, API Gateway, EC2, Cognito, KMS), GCP (Cloud Functions, Vertex AI, APIs), Firebase, Kubernetes (k3s/k8s), Keycloak, Docker, GitLab CI/CD, IBM API Connect, SonarQube.</p>
+                <span class="project-highlight" data-i18n-html="main.exp1.projects">• <strong>Projects:</strong> Online Banking for Businesses (merchant enrollment, digitization, collections with mass direct debits), Service Portal (QR, electronic payments, POS terminals). <a href="https://www.supervielle.com.ar/negocios/empresas" data-i18n="footer.viewSite">View site</a></span>
             </article>
             <article>
                 <div class="article-header">
-                    <h3>Líder Técnico - Ingeniero de Desarrollo - AND</h3>
-                    <time datetime="2020-09-15">15 Sep 2020 – 31 Dic 2021</time>
+                    <h3 data-i18n="main.exp2.role">Technical Lead - Development Engineer - AND</h3>
+                    <time datetime="2020-09-15" data-i18n="main.exp2.date">Sep 15, 2020 – Dec 31, 2021</time>
                 </div>
-                <p>Bogotá DC, Colombia</p>
-                <p>• Plataformas: Rancher, Consul, Sonar, Kibana, Jira, Confluence, GitLab<br>
-                • SCRUM, CI/CD Azure DevOps, Azure Portal, PostgreSQL, ASP.NET Core, Angular<br>
-                <span class="project-highlight">• Proyecto: CEDULA RURAL - Desarrollo sistema gestión desarrollo rural. <a href="https://miregistrorural.minagricultura.gov.co/">Ver sitio</a></span></p>
+                <p data-i18n="main.exp2.location">Bogotá DC, Colombia</p>
+                <p data-i18n-html="main.exp2.desc">• Platforms: Rancher, Consul, Sonar, Kibana, Jira, Confluence, GitLab<br>
+                • SCRUM, CI/CD Azure DevOps, Azure Portal, PostgreSQL, ASP.NET Core, Angular</p>
+                <span class="project-highlight" data-i18n-html="main.exp2.projects">• Project: CEDULA RURAL - Rural development management system. <a href="https://miregistrorural.minagricultura.gov.co/" data-i18n="footer.viewSite">View site</a></span>
             </article>
             <article>
                 <div class="article-header">
-                    <h3>Ingeniero de Desarrollo - AND</h3>
-                    <time datetime="2019-10-05">05 Oct 2019 – 30 Jun 2020</time>
+                    <h3 data-i18n="main.exp3.role">Development Engineer - AND</h3>
+                    <time datetime="2019-10-05" data-i18n="main.exp3.date">Oct 5, 2019 – Jun 30, 2020</time>
                 </div>
-                <p>Bogotá DC, Colombia</p>
-                <p>• Front-End: Angular, HTML5, CSS3, JS, JQuery, Bootstrap, SASS<br>
-                • Back-End: C# ASP.NET Core, PostgreSQL, SQL Server, Jira, BitBucket<br>
-                <span class="project-highlight">• Proyectos: ARCHIVO SINDICAL - Desarrollo sistema gestión sindical. <a href="https://www.mintrabajo.gov.co/web/guest/relaciones-laborales/archivo-sindical">Ver sitio</a><br>
-                • PAIWEB 2.0 - Desarrollo sistema gestión vacunación. <a href="https://paiweb2.paiweb.gov.co/login">Ver sitio</a></span></p>
+                <p data-i18n="main.exp3.location">Bogotá DC, Colombia</p>
+                <p data-i18n-html="main.exp3.desc">• Front-End: Angular, HTML5, CSS3, JS, JQuery, Bootstrap, SASS<br>
+                • Back-End: C# ASP.NET Core, PostgreSQL, SQL Server, Jira, BitBucket</p>
+                <span class="project-highlight" data-i18n-html="main.exp3.projects">• Projects: ARCHIVO SINDICAL - Labor union management system. <a href="https://www.mintrabajo.gov.co/web/guest/relaciones-laborales/archivo-sindical" data-i18n="footer.viewSite">View site</a><br>
+                • PAIWEB 2.0 - Vaccination management system. <a href="https://paiweb2.paiweb.gov.co/login" data-i18n="footer.viewSite">View site</a></span>
             </article>
             <article>
                 <div class="article-header">
-                    <h3>Ingeniero de Desarrollo - CODALTEC</h3>
-                    <time datetime="2018-01-26">26 Ene 2018 – 31 Oct 2019</time>
+                    <h3 data-i18n="main.exp4.role">Development Engineer - CODALTEC</h3>
+                    <time datetime="2018-01-26" data-i18n="main.exp4.date">Jan 26, 2018 – Oct 31, 2019</time>
                 </div>
-                <p>Villavicencio, Meta, Colombia</p>
-                <p>• Front-End: JS, JQuery, Kendo UI, HTML5, CSS3, Bootstrap<br>
-                • Back-End: C# .Net Core, PL/SQL Oracle, SCRUM, documentación<br>
-                <span class="project-highlight">• Proyecto: SALUD.SIS - Diseño y desarrollo sistema gestión salud integrada. <a href="https://saludsis.mil.co/">Ver sitio</a></span></p>
+                <p data-i18n="main.exp4.location">Villavicencio, Meta, Colombia</p>
+                <p data-i18n-html="main.exp4.desc">• Front-End: JS, JQuery, Kendo UI, HTML5, CSS3, Bootstrap<br>
+                • Back-End: C# .Net Core, PL/SQL Oracle, SCRUM, documentation</p>
+                <span class="project-highlight" data-i18n-html="main.exp4.projects">• Project: SALUD.SIS - Design and development of integrated health management system. <a href="https://saludsis.mil.co/" data-i18n="footer.viewSite">View site</a></span>
             </article>
             <article>
                 <div class="article-header">
-                    <h3>Ingeniero de Pruebas (QA) - ISAMC</h3>
-                    <time datetime="2017-09-18">18 Sep 2017 – 31 Dic 2017</time>
+                    <h3 data-i18n="main.exp5.role">QA Engineer - ISAMC</h3>
+                    <time datetime="2017-09-18" data-i18n="main.exp5.date">Sep 18, 2017 – Dec 31, 2017</time>
                 </div>
-                <p>Villavicencio, Meta, Colombia</p>
-                <p>• Pruebas unitarias NUnit C#, consultas PL/SQL, TFS Visual Studio</p>
+                <p data-i18n="main.exp5.location">Villavicencio, Meta, Colombia</p>
+                <p data-i18n="main.exp5.desc">• Unit testing NUnit C#, PL/SQL queries, TFS Visual Studio</p>
             </article>
             <article>
                 <div class="article-header">
-                    <h3>Ingeniero de Desarrollo - Copimax Ltda</h3>
-                    <time datetime="2015-01-15">15 Ene 2015 – 31 Dic 2017</time>
+                    <h3 data-i18n="main.exp6.role">Development Engineer - Copimax Ltda</h3>
+                    <time datetime="2015-01-15" data-i18n="main.exp6.date">Jan 15, 2015 – Dec 31, 2017</time>
                 </div>
-                <p>Villavicencio, Meta, Colombia</p>
-                <p>• Back-End: C#, Java Spring Boot; Front-End: Thymeleaf, Angular<br>
+                <p data-i18n="main.exp6.location">Villavicencio, Meta, Colombia</p>
+                <p data-i18n-html="main.exp6.desc">• Back-End: C#, Java Spring Boot; Front-End: Thymeleaf, Angular<br>
                 • SQL Server, PostgreSQL, SCRUM</p>
             </article>
         </section>
 
                 <section id="educacion" aria-labelledby="educacion-heading">
-            <h2 id="educacion-heading"><i class="fas fa-graduation-cap"></i> Educación</h2>
+            <h2 id="educacion-heading"><i class="fas fa-graduation-cap"></i> <span data-i18n="main.education.title">Education</span></h2>
             <article>
                 <div class="article-header">
-                    <h3><i class="fas fa-graduation-cap"></i> Especialización en Ingeniería de Software</h3>
-                    <time datetime="2021-06-25">Junio 2021</time>
+                    <h3><i class="fas fa-graduation-cap"></i> <span data-i18n="main.edu1.title">Specialization in Software Engineering</span></h3>
+                    <time datetime="2021-06-25" data-i18n="main.edu1.date">June 2021</time>
                 </div>
-                <p>Universidad de los Llanos, Villavicencio, Meta, Colombia</p>
+                <p data-i18n="main.edu1.institution">Universidad de los Llanos, Villavicencio, Meta, Colombia</p>
             </article>
             <article>
                 <div class="article-header">
-                    <h3><i class="fas fa-university"></i> Ingeniería de Sistemas</h3>
-                    <time datetime="2016-11-19">Noviembre 2016</time>
+                    <h3><i class="fas fa-university"></i> <span data-i18n="main.edu2.title">Systems Engineering</span></h3>
+                    <time datetime="2016-11-19" data-i18n="main.edu2.date">November 2016</time>
                 </div>
-                <p>Universidad del Tolima (Convenio Universidad Minuto de Dios), Villavicencio, Meta, Colombia</p>
+                <p data-i18n="main.edu2.institution">Universidad del Tolima (Agreement with Universidad Minuto de Dios), Villavicencio, Meta, Colombia</p>
             </article>
             <article>
                 <div class="article-header">
-                    <h3><i class="fas fa-laptop-code"></i> Tecnólogo en Informática</h3>
-                    <time datetime="2013-07-26">Julio 2013</time>
+                    <h3><i class="fas fa-laptop-code"></i> <span data-i18n="main.edu3.title">IT Technologist</span></h3>
+                    <time datetime="2013-07-26" data-i18n="main.edu3.date">July 2013</time>
                 </div>
-                <p>Universidad Minuto de Dios, Villavicencio, Meta, Colombia</p>
+                <p data-i18n="main.edu3.institution">Universidad Minuto de Dios, Villavicencio, Meta, Colombia</p>
             </article>
             <article>
                 <div class="article-header">
-                    <h3><i class="fas fa-cogs"></i> Bachiller Técnico en Electrónica</h3>
-                    <time datetime="2008-02-01">Febrero 2008</time>
+                    <h3><i class="fas fa-cogs"></i> <span data-i18n="main.edu4.title">Technical High School Diploma in Electronics</span></h3>
+                    <time datetime="2008-02-01" data-i18n="main.edu4.date">February 2008</time>
                 </div>
-                <p>Instituto Técnico Industrial, Villavicencio, Meta, Colombia</p>
+                <p data-i18n="main.edu4.institution">Instituto Técnico Industrial, Villavicencio, Meta, Colombia</p>
             </article>
         </section>
 
@@ -185,9 +194,10 @@
     </div>
 
     <footer>
-        <button id="print-button"><i class="fas fa-print"></i> Imprimir CV</button>
+        <button id="print-button"><i class="fas fa-print"></i> <span data-i18n="footer.print">Print CV</span></button>
     </footer>
 
+    <script src="js/i18n.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

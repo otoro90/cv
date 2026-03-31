@@ -1,0 +1,89 @@
+{
+  "meta.description": "Hoja de Vida de Oscar Miguel Toro Torres - Ingeniero de Software con más de 10 años de experiencia",
+  "meta.title": "CV - Oscar Miguel Toro Torres | Ingeniero de Software",
+  "name.role": "Ingeniero de software",
+
+  "sidebar.about.title": "Sobre mí",
+  "sidebar.about.text": "Ingeniero de software senior con +10 años de experiencia desarrollando soluciones empresariales y financieras de alto impacto. Actualmente en Banco Supervielle (Argentina), especializado en arquitecturas cloud-native, microservicios y sistemas distribuidos con .NET Core, Angular, Flutter, GCP y AWS. Experiencia comprobada implementando Clean Architecture, CQRS/DDD y Event-Driven patterns en entornos de producción críticos. Experto en integración de IA/ML (Vertex AI), automatización DevOps (CI/CD, Kubernetes) y optimización de sistemas de alta concurrencia. Certificado Scrum Master con fuerte enfoque en calidad, escalabilidad y entrega continua de valor.",
+
+  "sidebar.skills.title": "Habilidades",
+  "sidebar.skills.languages": "Lenguajes:",
+  "sidebar.skills.frameworks": "Frameworks:",
+  "sidebar.skills.patterns": "Patrones/Libs:",
+  "sidebar.skills.databases": "Bases de Datos:",
+  "sidebar.skills.cloud": "Cloud/DevOps:",
+  "sidebar.skills.methodologies": "Metodologías:",
+
+  "sidebar.competencies.title": "Competencias",
+  "sidebar.competencies.principles": "Principios: SOLID, KISS, DRY, Clean Code",
+  "sidebar.competencies.analysis": "Análisis y diseño, POO, EDA, SOA, APIs",
+  "sidebar.competencies.methodologies": "Metodologías ágiles, optimización rendimiento",
+  "sidebar.competencies.soft": "Habilidades analíticas, trabajo en equipo",
+
+  "sidebar.certifications.title": "Certificaciones",
+  "sidebar.certifications.scrum": "Scrum Master Professional Certified – Certiprof",
+  "sidebar.certifications.db": "Fundamentos en administración de base de datos - Universidad Minuto de Dios",
+  "sidebar.certifications.quality": "Calidad en el desarrollo de software – SENA",
+
+  "sidebar.contact.title": "Contacto",
+  "sidebar.contact.personalRef": "Referencias personales",
+  "sidebar.contact.workRef": "Referencias laborales",
+  "sidebar.contact.role.coordinator": "Coordinador TI",
+  "sidebar.contact.role.accountant": "Contadora",
+
+  "main.experience.title": "Experiencia Laboral",
+
+  "main.exp1.role": "Lead Full-Stack Developer - Banco Supervielle – Intive",
+  "main.exp1.date": "27 Nov 2021 – Actualmente",
+  "main.exp1.location": "Córdoba, Argentina",
+  "main.exp1.desc": "• <strong>Backend:</strong> APIs RESTful y microservicios con .NET Core 6.0/8.0 (Clean Architecture, CQRS + MediatR, Entity Framework Core, OAuth 2.0), funciones serverless AWS Lambda con Python 3.11, integración RabbitMQ y AWS SQS para mensajería asíncrona.<br>• <strong>Frontend:</strong> Angular 12+ con NgRx para gestión de estado, PrimeNG/Material UI, testing con Cypress/Jasmine.<br>• <strong>Mobile:</strong> Arquitectura Clean/DDD en Flutter/Dart con backend Go (GCP Cloud Functions), Firebase (Auth/Firestore), Riverpod, APIs Google (Gmail, Sheets, Drive), seguridad AES-256/JWT.<br>• <strong>Cloud/DevOps:</strong> AWS (Lambda, DynamoDB, S3, SQS, API Gateway, EC2, Cognito, KMS), GCP (Cloud Functions, Vertex AI, APIs), Firebase, Kubernetes (k3s/k8s), Keycloak, Docker, GitLab CI/CD, IBM API Connect, SonarQube.",
+  "main.exp1.projects": "• <strong>Proyectos:</strong> Online Banking Empresas (adhesión comercios, digitalización, recaudaciones con débitos directos masivos), Portal de servicios (QR, pagos electrónicos, terminales POS). <a href='https://www.supervielle.com.ar/negocios/empresas'>Ver sitio</a>",
+
+  "main.exp2.role": "Líder Técnico - Ingeniero de Desarrollo - AND",
+  "main.exp2.date": "15 Sep 2020 – 31 Dic 2021",
+  "main.exp2.location": "Bogotá DC, Colombia",
+  "main.exp2.desc": "• Plataformas: Rancher, Consul, Sonar, Kibana, Jira, Confluence, GitLab<br>• SCRUM, CI/CD Azure DevOps, Azure Portal, PostgreSQL, ASP.NET Core, Angular",
+  "main.exp2.projects": "• Proyecto: CEDULA RURAL - Desarrollo sistema gestión desarrollo rural. <a href='https://miregistrorural.minagricultura.gov.co/'>Ver sitio</a>",
+
+  "main.exp3.role": "Ingeniero de Desarrollo - AND",
+  "main.exp3.date": "05 Oct 2019 – 30 Jun 2020",
+  "main.exp3.location": "Bogotá DC, Colombia",
+  "main.exp3.desc": "• Front-End: Angular, HTML5, CSS3, JS, JQuery, Bootstrap, SASS<br>• Back-End: C# ASP.NET Core, PostgreSQL, SQL Server, Jira, BitBucket",
+  "main.exp3.projects": "• Proyectos: ARCHIVO SINDICAL - Desarrollo sistema gestión sindical. <a href='https://www.mintrabajo.gov.co/web/guest/relaciones-laborales/archivo-sindical'>Ver sitio</a><br>• PAIWEB 2.0 - Desarrollo sistema gestión vacunación. <a href='https://paiweb2.paiweb.gov.co/login'>Ver sitio</a>",
+
+  "main.exp4.role": "Ingeniero de Desarrollo - CODALTEC",
+  "main.exp4.date": "26 Ene 2018 – 31 Oct 2019",
+  "main.exp4.location": "Villavicencio, Meta, Colombia",
+  "main.exp4.desc": "• Front-End: JS, JQuery, Kendo UI, HTML5, CSS3, Bootstrap<br>• Back-End: C# .Net Core, PL/SQL Oracle, SCRUM, documentación",
+  "main.exp4.projects": "• Proyecto: SALUD.SIS - Diseño y desarrollo sistema gestión salud integrada. <a href='https://saludsis.mil.co/'>Ver sitio</a>",
+
+  "main.exp5.role": "Ingeniero de Pruebas (QA) - ISAMC",
+  "main.exp5.date": "18 Sep 2017 – 31 Dic 2017",
+  "main.exp5.location": "Villavicencio, Meta, Colombia",
+  "main.exp5.desc": "• Pruebas unitarias NUnit C#, consultas PL/SQL, TFS Visual Studio",
+
+  "main.exp6.role": "Ingeniero de Desarrollo - Copimax Ltda",
+  "main.exp6.date": "15 Ene 2015 – 31 Dic 2017",
+  "main.exp6.location": "Villavicencio, Meta, Colombia",
+  "main.exp6.desc": "• Back-End: C#, Java Spring Boot; Front-End: Thymeleaf, Angular<br>• SQL Server, PostgreSQL, SCRUM",
+
+  "main.education.title": "Educación",
+  "main.edu1.title": "Especialización en Ingeniería de Software",
+  "main.edu1.date": "Junio 2021",
+  "main.edu1.institution": "Universidad de los Llanos, Villavicencio, Meta, Colombia",
+
+  "main.edu2.title": "Ingeniería de Sistemas",
+  "main.edu2.date": "Noviembre 2016",
+  "main.edu2.institution": "Universidad del Tolima (Convenio Universidad Minuto de Dios), Villavicencio, Meta, Colombia",
+
+  "main.edu3.title": "Tecnólogo en Informática",
+  "main.edu3.date": "Julio 2013",
+  "main.edu3.institution": "Universidad Minuto de Dios, Villavicencio, Meta, Colombia",
+
+  "main.edu4.title": "Bachiller Técnico en Electrónica",
+  "main.edu4.date": "Febrero 2008",
+  "main.edu4.institution": "Instituto Técnico Industrial, Villavicencio, Meta, Colombia",
+
+  "footer.print": "Imprimir CV",
+  "footer.viewSite": "Ver sitio"
+}

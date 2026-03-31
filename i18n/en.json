@@ -1,0 +1,89 @@
+{
+  "meta.description": "Resume of Oscar Miguel Toro Torres - Software Engineer with over 10 years of experience",
+  "meta.title": "CV - Oscar Miguel Toro Torres | Software Engineer",
+  "name.role": "Software Engineer",
+
+  "sidebar.about.title": "About Me",
+  "sidebar.about.text": "Senior software engineer with 10+ years of experience developing high-impact enterprise and financial solutions. Currently at Banco Supervielle (Argentina), specialized in cloud-native architectures, microservices, and distributed systems with .NET Core, Angular, Flutter, GCP, and AWS. Proven track record implementing Clean Architecture, CQRS/DDD, and Event-Driven patterns in mission-critical production environments. Expert in AI/ML integration (Vertex AI), DevOps automation (CI/CD, Kubernetes), and optimization of high-concurrency systems. Certified Scrum Master with a strong focus on quality, scalability, and continuous value delivery.",
+
+  "sidebar.skills.title": "Skills",
+  "sidebar.skills.languages": "Languages:",
+  "sidebar.skills.frameworks": "Frameworks:",
+  "sidebar.skills.patterns": "Patterns/Libs:",
+  "sidebar.skills.databases": "Databases:",
+  "sidebar.skills.cloud": "Cloud/DevOps:",
+  "sidebar.skills.methodologies": "Methodologies:",
+
+  "sidebar.competencies.title": "Competencies",
+  "sidebar.competencies.principles": "Principles: SOLID, KISS, DRY, Clean Code",
+  "sidebar.competencies.analysis": "Analysis & design, OOP, EDA, SOA, APIs",
+  "sidebar.competencies.methodologies": "Agile methodologies, performance optimization",
+  "sidebar.competencies.soft": "Analytical skills, teamwork",
+
+  "sidebar.certifications.title": "Certifications",
+  "sidebar.certifications.scrum": "Scrum Master Professional Certified – Certiprof",
+  "sidebar.certifications.db": "Database Administration Fundamentals - Universidad Minuto de Dios",
+  "sidebar.certifications.quality": "Software Development Quality – SENA",
+
+  "sidebar.contact.title": "Contact",
+  "sidebar.contact.personalRef": "Personal References",
+  "sidebar.contact.workRef": "Work References",
+  "sidebar.contact.role.coordinator": "IT Coordinator",
+  "sidebar.contact.role.accountant": "Accountant",
+
+  "main.experience.title": "Work Experience",
+
+  "main.exp1.role": "Lead Full-Stack Developer - Banco Supervielle – Intive",
+  "main.exp1.date": "Nov 27, 2021 – Present",
+  "main.exp1.location": "Córdoba, Argentina",
+  "main.exp1.desc": "• <strong>Backend:</strong> RESTful APIs and microservices with .NET Core 6.0/8.0 (Clean Architecture, CQRS + MediatR, Entity Framework Core, OAuth 2.0), serverless AWS Lambda functions with Python 3.11, RabbitMQ and AWS SQS integration for asynchronous messaging.<br>• <strong>Frontend:</strong> Angular 12+ with NgRx for state management, PrimeNG/Material UI, testing with Cypress/Jasmine.<br>• <strong>Mobile:</strong> Clean/DDD architecture in Flutter/Dart with Go backend (GCP Cloud Functions), Firebase (Auth/Firestore), Riverpod, Google APIs (Gmail, Sheets, Drive), AES-256/JWT security.<br>• <strong>Cloud/DevOps:</strong> AWS (Lambda, DynamoDB, S3, SQS, API Gateway, EC2, Cognito, KMS), GCP (Cloud Functions, Vertex AI, APIs), Firebase, Kubernetes (k3s/k8s), Keycloak, Docker, GitLab CI/CD, IBM API Connect, SonarQube.",
+  "main.exp1.projects": "• <strong>Projects:</strong> Online Banking for Businesses (merchant enrollment, digitization, collections with mass direct debits), Service Portal (QR, electronic payments, POS terminals). <a href='https://www.supervielle.com.ar/negocios/empresas'>View site</a>",
+
+  "main.exp2.role": "Technical Lead - Development Engineer - AND",
+  "main.exp2.date": "Sep 15, 2020 – Dec 31, 2021",
+  "main.exp2.location": "Bogotá DC, Colombia",
+  "main.exp2.desc": "• Platforms: Rancher, Consul, Sonar, Kibana, Jira, Confluence, GitLab<br>• SCRUM, CI/CD Azure DevOps, Azure Portal, PostgreSQL, ASP.NET Core, Angular",
+  "main.exp2.projects": "• Project: CEDULA RURAL - Rural development management system. <a href='https://miregistrorural.minagricultura.gov.co/'>View site</a>",
+
+  "main.exp3.role": "Development Engineer - AND",
+  "main.exp3.date": "Oct 5, 2019 – Jun 30, 2020",
+  "main.exp3.location": "Bogotá DC, Colombia",
+  "main.exp3.desc": "• Front-End: Angular, HTML5, CSS3, JS, JQuery, Bootstrap, SASS<br>• Back-End: C# ASP.NET Core, PostgreSQL, SQL Server, Jira, BitBucket",
+  "main.exp3.projects": "• Projects: ARCHIVO SINDICAL - Labor union management system. <a href='https://www.mintrabajo.gov.co/web/guest/relaciones-laborales/archivo-sindical'>View site</a><br>• PAIWEB 2.0 - Vaccination management system. <a href='https://paiweb2.paiweb.gov.co/login'>View site</a>",
+
+  "main.exp4.role": "Development Engineer - CODALTEC",
+  "main.exp4.date": "Jan 26, 2018 – Oct 31, 2019",
+  "main.exp4.location": "Villavicencio, Meta, Colombia",
+  "main.exp4.desc": "• Front-End: JS, JQuery, Kendo UI, HTML5, CSS3, Bootstrap<br>• Back-End: C# .Net Core, PL/SQL Oracle, SCRUM, documentation",
+  "main.exp4.projects": "• Project: SALUD.SIS - Design and development of integrated health management system. <a href='https://saludsis.mil.co/'>View site</a>",
+
+  "main.exp5.role": "QA Engineer - ISAMC",
+  "main.exp5.date": "Sep 18, 2017 – Dec 31, 2017",
+  "main.exp5.location": "Villavicencio, Meta, Colombia",
+  "main.exp5.desc": "• Unit testing NUnit C#, PL/SQL queries, TFS Visual Studio",
+
+  "main.exp6.role": "Development Engineer - Copimax Ltda",
+  "main.exp6.date": "Jan 15, 2015 – Dec 31, 2017",
+  "main.exp6.location": "Villavicencio, Meta, Colombia",
+  "main.exp6.desc": "• Back-End: C#, Java Spring Boot; Front-End: Thymeleaf, Angular<br>• SQL Server, PostgreSQL, SCRUM",
+
+  "main.education.title": "Education",
+  "main.edu1.title": "Specialization in Software Engineering",
+  "main.edu1.date": "June 2021",
+  "main.edu1.institution": "Universidad de los Llanos, Villavicencio, Meta, Colombia",
+
+  "main.edu2.title": "Systems Engineering",
+  "main.edu2.date": "November 2016",
+  "main.edu2.institution": "Universidad del Tolima (Agreement with Universidad Minuto de Dios), Villavicencio, Meta, Colombia",
+
+  "main.edu3.title": "IT Technologist",
+  "main.edu3.date": "July 2013",
+  "main.edu3.institution": "Universidad Minuto de Dios, Villavicencio, Meta, Colombia",
+
+  "main.edu4.title": "Technical High School Diploma in Electronics",
+  "main.edu4.date": "February 2008",
+  "main.edu4.institution": "Instituto Técnico Industrial, Villavicencio, Meta, Colombia",
+
+  "footer.print": "Print CV",
+  "footer.viewSite": "View site"
+}
