@@ -8,6 +8,20 @@
     <meta name="author" content="Oscar Miguel Toro Torres">
     <title data-i18n="meta.title">CV - Oscar Miguel Toro Torres | Software Engineer</title>
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Oscar Miguel Toro Torres - Software Engineer">
+    <meta property="og:description" content="Senior Software Engineer with 10+ years of experience in .NET Core, Angular, Flutter, AWS & GCP">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://otoro90.github.io/cv/">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Oscar Miguel Toro Torres - Software Engineer">
+    <meta name="twitter:description" content="Senior Software Engineer with 10+ years of experience in .NET Core, Angular, Flutter, AWS & GCP">
+    
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,12 +32,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-    </header>
+    <a href="#experiencia" class="skip-to-content" data-i18n="accessibility.skipToContent">Skip to main content</a>
+    <div id="progress-bar" aria-hidden="true"></div>
 
     <div class="cv-container">
         <div class="name-section">
-            <div class="lang-switcher" role="navigation" aria-label="Language selector">
+            <nav class="lang-switcher" aria-label="Language selector">
                 <button id="lang-en" class="lang-btn active" data-lang="en" title="English" aria-label="Switch to English">
                     EN
                 </button>
@@ -31,7 +45,7 @@
                 <button id="lang-es" class="lang-btn" data-lang="es" title="Español" aria-label="Cambiar a Español">
                     ES
                 </button>
-            </div>
+            </nav>
             <h1>Oscar Miguel Toro Torres</h1>
             <p data-i18n="name.role">Software Engineer</p>
         </div>
@@ -84,6 +98,8 @@
                 <p><i class="fas fa-envelope"></i> omigueltoro@gmail.com</p>
                 <p><i class="fas fa-phone"></i> +57 313 496 5969</p>
                 <p><i class="fas fa-map-marker-alt"></i> Villavicencio - META, Colombia</p>
+                <p><a href="https://www.linkedin.com/in/oscar-miguel-toro-torres" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
+                <p><a href="https://github.com/otoro90" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a></p>
                 <h3 data-i18n="sidebar.contact.personalRef">Personal References</h3>
                 <p>FREDDY PARRA GUEVARA<br><span data-i18n="sidebar.contact.role.coordinator">IT Coordinator</span><br>Cel. 3134157406</p>
                 <p>CLAUDIA TORO SAENZ<br><span data-i18n="sidebar.contact.role.accountant">Accountant</span><br>Cel. 3212412759</p>
@@ -106,7 +122,7 @@
                 • <strong>Frontend:</strong> Angular 12+ with NgRx for state management, PrimeNG/Material UI, testing with Cypress/Jasmine.<br>
                 • <strong>Mobile:</strong> Clean/DDD architecture in Flutter/Dart with Go backend (GCP Cloud Functions), Firebase (Auth/Firestore), Riverpod, Google APIs (Gmail, Sheets, Drive), AES-256/JWT security.<br>
                 • <strong>Cloud/DevOps:</strong> AWS (Lambda, DynamoDB, S3, SQS, API Gateway, EC2, Cognito, KMS), GCP (Cloud Functions, Vertex AI, APIs), Firebase, Kubernetes (k3s/k8s), Keycloak, Docker, GitLab CI/CD, IBM API Connect, SonarQube.</p>
-                <span class="project-highlight" data-i18n-html="main.exp1.projects">• <strong>Projects:</strong> Online Banking for Businesses (merchant enrollment, digitization, collections with mass direct debits), Service Portal (QR, electronic payments, POS terminals). <a href="https://www.supervielle.com.ar/negocios/empresas" data-i18n="footer.viewSite">View site</a></span>
+                <span class="project-highlight" data-i18n-html="main.exp1.projects">• <strong>Projects:</strong> Online Banking for Businesses (merchant enrollment, digitization, collections with mass direct debits), Service Portal (QR, electronic payments, POS terminals). <a href="https://www.supervielle.com.ar/negocios/empresas" target="_blank" rel="noopener noreferrer" data-i18n="footer.viewSite">View site</a></span>
             </article>
             <article>
                 <div class="article-header">
@@ -116,7 +132,7 @@
                 <p data-i18n="main.exp2.location">Bogotá DC, Colombia</p>
                 <p data-i18n-html="main.exp2.desc">• Platforms: Rancher, Consul, Sonar, Kibana, Jira, Confluence, GitLab<br>
                 • SCRUM, CI/CD Azure DevOps, Azure Portal, PostgreSQL, ASP.NET Core, Angular</p>
-                <span class="project-highlight" data-i18n-html="main.exp2.projects">• Project: CEDULA RURAL - Rural development management system. <a href="https://miregistrorural.minagricultura.gov.co/" data-i18n="footer.viewSite">View site</a></span>
+                <span class="project-highlight" data-i18n-html="main.exp2.projects">• Project: CEDULA RURAL - Rural development management system. <a href="https://miregistrorural.minagricultura.gov.co/" target="_blank" rel="noopener noreferrer" data-i18n="footer.viewSite">View site</a></span>
             </article>
             <article>
                 <div class="article-header">
@@ -126,8 +142,8 @@
                 <p data-i18n="main.exp3.location">Bogotá DC, Colombia</p>
                 <p data-i18n-html="main.exp3.desc">• Front-End: Angular, HTML5, CSS3, JS, JQuery, Bootstrap, SASS<br>
                 • Back-End: C# ASP.NET Core, PostgreSQL, SQL Server, Jira, BitBucket</p>
-                <span class="project-highlight" data-i18n-html="main.exp3.projects">• Projects: ARCHIVO SINDICAL - Labor union management system. <a href="https://www.mintrabajo.gov.co/web/guest/relaciones-laborales/archivo-sindical" data-i18n="footer.viewSite">View site</a><br>
-                • PAIWEB 2.0 - Vaccination management system. <a href="https://paiweb2.paiweb.gov.co/login" data-i18n="footer.viewSite">View site</a></span>
+                <span class="project-highlight" data-i18n-html="main.exp3.projects">• Projects: ARCHIVO SINDICAL - Labor union management system. <a href="https://www.mintrabajo.gov.co/web/guest/relaciones-laborales/archivo-sindical" target="_blank" rel="noopener noreferrer" data-i18n="footer.viewSite">View site</a><br>
+                • PAIWEB 2.0 - Vaccination management system. <a href="https://paiweb2.paiweb.gov.co/login" target="_blank" rel="noopener noreferrer" data-i18n="footer.viewSite">View site</a></span>
             </article>
             <article>
                 <div class="article-header">
@@ -137,7 +153,7 @@
                 <p data-i18n="main.exp4.location">Villavicencio, Meta, Colombia</p>
                 <p data-i18n-html="main.exp4.desc">• Front-End: JS, JQuery, Kendo UI, HTML5, CSS3, Bootstrap<br>
                 • Back-End: C# .Net Core, PL/SQL Oracle, SCRUM, documentation</p>
-                <span class="project-highlight" data-i18n-html="main.exp4.projects">• Project: SALUD.SIS - Design and development of integrated health management system. <a href="https://saludsis.mil.co/" data-i18n="footer.viewSite">View site</a></span>
+                <span class="project-highlight" data-i18n-html="main.exp4.projects">• Project: SALUD.SIS - Design and development of integrated health management system. <a href="https://saludsis.mil.co/" target="_blank" rel="noopener noreferrer" data-i18n="footer.viewSite">View site</a></span>
             </article>
             <article>
                 <div class="article-header">
@@ -158,7 +174,29 @@
             </article>
         </section>
 
-                <section id="educacion" aria-labelledby="educacion-heading">
+                <section id="proyectos" aria-labelledby="proyectos-heading">
+            <h2 id="proyectos-heading"><i class="fas fa-code"></i> <span data-i18n="main.projects.title">Featured Projects</span></h2>
+            <article>
+                <div class="article-header">
+                    <h3><i class="fas fa-database"></i> Mini CRUD</h3>
+                    <span class="project-tag" data-i18n="main.projects.demo">Demo</span>
+                </div>
+                <p data-i18n="main.projects.miniCrud.desc">Full-stack CRUD application with Node.js backend and vanilla JavaScript frontend. Demonstrates RESTful API design, client-server architecture, and Clean Code principles.</p>
+                <span class="project-highlight"><strong>Stack:</strong> Node.js, Express, HTML5, CSS3, JavaScript ES6+<br>
+                <a href="projects/mini-crud/" target="_blank" rel="noopener noreferrer" data-i18n="main.projects.viewDemo">View demo</a></span>
+            </article>
+            <article>
+                <div class="article-header">
+                    <h3><i class="fab fa-microsoft"></i> SPFx Starter</h3>
+                    <span class="project-tag" data-i18n="main.projects.template">Template</span>
+                </div>
+                <p data-i18n="main.projects.spfx.desc">SharePoint Framework starter template with AI-assisted development prompts. Showcases enterprise-grade SPFx web part development patterns.</p>
+                <span class="project-highlight"><strong>Stack:</strong> TypeScript, React, SharePoint Framework, AI Prompts<br>
+                <a href="projects/spfx-starter/" target="_blank" rel="noopener noreferrer" data-i18n="main.projects.viewProject">View project</a></span>
+            </article>
+        </section>
+
+        <section id="educacion" aria-labelledby="educacion-heading">
             <h2 id="educacion-heading"><i class="fas fa-graduation-cap"></i> <span data-i18n="main.education.title">Education</span></h2>
             <article>
                 <div class="article-header">

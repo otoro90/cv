@@ -4,7 +4,7 @@
     --secondary-color: #3498db;
     --accent-color: #e74c3c;
     --text-dark: #2c3e50;
-    --text-light: #7f8c8d;
+    --text-light: #596673;
     --bg-light: #ecf0f1;
     --bg-white: #ffffff;
     --shadow-sm: 0 2px 4px rgba(0,0,0,0.08);
@@ -17,6 +17,41 @@
 /* Estilos generales */
 * {
     box-sizing: border-box;
+}
+
+/* Skip to content */
+.skip-to-content {
+    position: absolute;
+    top: -100%;
+    left: 16px;
+    z-index: 10000;
+    padding: 12px 24px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 0 0 8px 8px;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: none;
+    transition: top 0.2s ease;
+}
+.skip-to-content:focus {
+    top: 0;
+    outline: 3px solid var(--secondary-color);
+    outline-offset: 2px;
+    color: #fff;
+    border-bottom: none;
+}
+
+/* Progress bar */
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background: linear-gradient(90deg, #3498db, #e74c3c);
+    z-index: 9999;
+    transition: width 0.1s ease;
 }
 
 body {
@@ -289,6 +324,19 @@ article:last-child {
     margin-bottom: 0;
 }
 
+.project-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    background: var(--secondary-color);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    flex-shrink: 0;
+}
+
 article h3 {
     color: var(--primary-color);
     font-size: 1.3em;
@@ -510,6 +558,93 @@ button i {
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
+    }
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #ecf0f1;
+        --secondary-color: #5dade2;
+        --accent-color: #e74c3c;
+        --text-dark: #e0e0e0;
+        --text-light: #aab7c4;
+        --bg-light: #1a1a2e;
+        --bg-white: #16213e;
+        --shadow-sm: 0 2px 4px rgba(0,0,0,0.3);
+        --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
+        --shadow-lg: 0 8px 24px rgba(0,0,0,0.5);
+    }
+
+    body {
+        background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    }
+
+    .sidebar {
+        background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
+        border-right-color: #2a2a4a;
+    }
+
+    .skill-category {
+        background: #1a1a2e;
+        border: 1px solid #2a2a4a;
+    }
+
+    article {
+        background: #1a1a2e;
+        border-left-color: var(--secondary-color);
+    }
+
+    article:hover {
+        border-left-color: var(--accent-color);
+    }
+
+    .project-highlight {
+        background: linear-gradient(135deg, #1a2a3a 0%, #1e3a5f 100%);
+        border-left-color: var(--secondary-color);
+    }
+
+    .name-section {
+        background: linear-gradient(135deg, #0a0a1a 0%, #1a1a2e 100%);
+    }
+
+    .name-section h1 {
+        color: #ffffff;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+
+    .name-section p {
+        color: #cbd5e1;
+        opacity: 1;
+    }
+
+    .name-section::after {
+        border-top-color: #1a1a2e;
+    }
+
+    a {
+        color: var(--secondary-color);
+    }
+
+    a:hover, a:focus {
+        color: var(--accent-color);
+    }
+
+    time {
+        background: var(--secondary-color);
+    }
+
+    .lang-btn {
+        border-color: rgba(255, 255, 255, 0.3);
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .lang-btn:hover {
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .lang-btn.active {
+        background: rgba(255, 255, 255, 0.15);
     }
 }
 
@@ -746,6 +881,14 @@ button i {
     }
 
     footer, button {
+        display: none;
+    }
+
+    .skip-to-content {
+        display: none;
+    }
+
+    #progress-bar {
         display: none;
     }
 

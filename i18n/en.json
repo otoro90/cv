@@ -85,5 +85,15 @@
   "main.edu4.institution": "Instituto Técnico Industrial, Villavicencio, Meta, Colombia",
 
   "footer.print": "Print CV",
-  "footer.viewSite": "View site"
+  "footer.viewSite": "View site",
+
+  "accessibility.skipToContent": "Skip to main content",
+
+  "main.projects.title": "Featured Projects",
+  "main.projects.demo": "Demo",
+  "main.projects.template": "Template",
+  "main.projects.viewDemo": "View demo",
+  "main.projects.viewProject": "View project",
+  "main.projects.miniCrud.desc": "Full-stack CRUD application with Node.js backend and vanilla JavaScript frontend. Demonstrates RESTful API design, client-server architecture, and Clean Code principles.",
+  "main.projects.spfx.desc": "SharePoint Framework starter template with AI-assisted development prompts. Showcases enterprise-grade SPFx web part development patterns."
 }

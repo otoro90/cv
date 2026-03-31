@@ -64,23 +64,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
         const scrolled = (winScroll / height) * 100;
         
-        // Crear barra de progreso si no existe
-        let progressBar = document.getElementById('progress-bar');
-        if (!progressBar) {
-            progressBar = document.createElement('div');
-            progressBar.id = 'progress-bar';
-            progressBar.style.cssText = `
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 0%;
-                height: 4px;
-                background: linear-gradient(90deg, #3498db, #e74c3c);
-                z-index: 9999;
-                transition: width 0.1s ease;
-            `;
-            document.body.appendChild(progressBar);
+        const progressBar = document.getElementById('progress-bar');
+        if (progressBar) {
+            progressBar.style.width = scrolled + '%';
         }
-        progressBar.style.width = scrolled + '%';
     }
 });
