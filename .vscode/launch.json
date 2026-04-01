@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "CV - Open in Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/index.html"
+    },
+    {
+      "name": "Mini CRUD - Node Server",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/projects/mini-crud/server.js",
+      "cwd": "${workspaceFolder}/projects/mini-crud",
+      "console": "integratedTerminal",
+      "restart": true,
+      "env": {
+        "PORT": "4000"
+      }
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Full Stack (CV + Mini CRUD)",
+      "configurations": [
+        "CV - Open in Chrome",
+        "Mini CRUD - Node Server"
+      ]
+    }
+  ]
+}
