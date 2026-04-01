@@ -4,7 +4,7 @@
   "name.role": "Software Engineer",
 
   "sidebar.about.title": "About Me",
-  "sidebar.about.text": "Senior software engineer with 10+ years of experience developing high-impact enterprise and financial solutions. Currently at Banco Supervielle (Argentina), specialized in cloud-native architectures, microservices, and distributed systems with .NET Core, Angular, Flutter, GCP, and AWS. Proven track record implementing Clean Architecture, CQRS/DDD, and Event-Driven patterns in mission-critical production environments. Expert in AI/ML integration (Vertex AI), DevOps automation (CI/CD, Kubernetes), and optimization of high-concurrency systems. Certified Scrum Master with a strong focus on quality, scalability, and continuous value delivery.",
+  "sidebar.about.text": "Senior software engineer with 10+ years of experience developing high-impact enterprise and financial solutions. Currently at Intive, serving as Software Engineer for GCH (the US Short Code Registry), building scalable backend systems with NestJS, TypeScript, PostgreSQL, and AWS. Previously led full-stack development for Banco Supervielle (Argentina) with .NET Core, Angular, Flutter, GCP, and AWS. Creator of Finaan, an AI-powered accounting platform built with Flutter, Go, and Google Cloud (Vertex AI, Cloud Run, Firestore). Proven track record implementing Clean Architecture, CQRS/DDD, and Event-Driven patterns in mission-critical production environments. Certified Scrum Master with a strong focus on quality, scalability, and continuous value delivery.",
 
   "sidebar.skills.title": "Skills",
   "sidebar.skills.languages": "Languages:",
@@ -33,8 +33,14 @@
 
   "main.experience.title": "Work Experience",
 
-  "main.exp1.role": "Lead Full-Stack Developer - Banco Supervielle – Intive",
-  "main.exp1.date": "Nov 27, 2021 – Present",
+  "main.expGCH.role": "Software Engineer - GCH (Short Code Registry) \u2013 Intive",
+  "main.expGCH.date": "Mar 2026 \u2013 Present",
+  "main.expGCH.location": "Remote",
+  "main.expGCH.desc": "\u2022 <strong>Backend:</strong> RESTful APIs with NestJS/TypeScript (modular DDD architecture), Prisma ORM with PostgreSQL 16, Redis caching, BullMQ for background job processing, Swagger/OpenAPI documentation, Jest testing.<br>\u2022 <strong>Cloud/DevOps:</strong> AWS (Cognito, S3, QuickSight, X-Ray, ECR), Google Cloud Storage, Docker multi-stage builds, Kubernetes (multi-env deployments with External Secrets), Bitbucket Pipelines CI/CD.<br>\u2022 <strong>Integrations:</strong> Chargebee (payment/billing), USPS, SMS aggregators, content providers for short code lifecycle management.",
+  "main.expGCH.projects": "\u2022 <strong>Project:</strong> SCR Platform - Short code reservation, leasing, order processing, invoicing, and analytics platform for the US telecommunications industry.",
+
+  "main.exp1.role": "Lead Full-Stack Developer - Banco Supervielle \u2013 Intive",
+  "main.exp1.date": "Nov 27, 2021 \u2013 Mar 2026",
   "main.exp1.location": "Córdoba, Argentina",
   "main.exp1.desc": "• <strong>Backend:</strong> RESTful APIs and microservices with .NET Core 6.0/8.0 (Clean Architecture, CQRS + MediatR, Entity Framework Core, OAuth 2.0), serverless AWS Lambda functions with Python 3.11, RabbitMQ and AWS SQS integration for asynchronous messaging.<br>• <strong>Frontend:</strong> Angular 12+ with NgRx for state management, PrimeNG/Material UI, testing with Cypress/Jasmine.<br>• <strong>Mobile:</strong> Clean/DDD architecture in Flutter/Dart with Go backend (GCP Cloud Functions), Firebase (Auth/Firestore), Riverpod, Google APIs (Gmail, Sheets, Drive), AES-256/JWT security.<br>• <strong>Cloud/DevOps:</strong> AWS (Lambda, DynamoDB, S3, SQS, API Gateway, EC2, Cognito, KMS), GCP (Cloud Functions, Vertex AI, APIs), Firebase, Kubernetes (k3s/k8s), Keycloak, Docker, GitLab CI/CD, IBM API Connect, SonarQube.",
   "main.exp1.projects": "• <strong>Projects:</strong> Online Banking for Businesses (merchant enrollment, digitization, collections with mass direct debits), Service Portal (QR, electronic payments, POS terminals). <a href='https://www.supervielle.com.ar/negocios/empresas'>View site</a>",
@@ -95,5 +101,7 @@
   "main.projects.viewDemo": "View demo",
   "main.projects.viewProject": "View project",
   "main.projects.miniCrud.desc": "Full-stack CRUD application with Node.js backend and vanilla JavaScript frontend. Demonstrates RESTful API design, client-server architecture, and Clean Code principles.",
-  "main.projects.spfx.desc": "SharePoint Framework starter template with AI-assisted development prompts. Showcases enterprise-grade SPFx web part development patterns."
+  "main.projects.spfx.desc": "SharePoint Framework starter template with AI-assisted development prompts. Showcases enterprise-grade SPFx web part development patterns.",
+  "main.projects.personal": "Personal",
+  "main.projects.finaan.desc": "AI-powered multi-platform accounting application for SMEs. Features invoice OCR with Vertex AI, intelligent expense categorization, financial reporting, and cross-platform sync. Built with Clean Architecture, Provider pattern, and Go microservices on Google Cloud Run."
 }
