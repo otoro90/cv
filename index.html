@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" data-i18n-attr="content:meta.description" content="Resume of Oscar Miguel Toro Torres - Software Engineer with over 10 years of experience">
-    <meta name="keywords" content="software engineer, developer, C#, .NET, Angular, Java, Spring Boot">
+    <meta name="keywords" content="software engineer, developer, C#, .NET, NestJS, Angular, TypeScript, Flutter, Java, Spring Boot, AWS, GCP, Go">
     <meta name="author" content="Oscar Miguel Toro Torres">
     <title data-i18n="meta.title">CV - Oscar Miguel Toro Torres | Software Engineer</title>
     
@@ -53,7 +53,7 @@
         <aside class="sidebar">
             <section id="sobre-mi" aria-labelledby="sobre-mi-heading">
                 <h2 id="sobre-mi-heading"><i class="fas fa-user"></i> <span data-i18n="sidebar.about.title">About Me</span></h2>
-                <p data-i18n="sidebar.about.text">Senior software engineer with 10+ years of experience developing high-impact enterprise and financial solutions. Currently at Banco Supervielle (Argentina), specialized in cloud-native architectures, microservices, and distributed systems with .NET Core, Angular, Flutter, GCP, and AWS. Proven track record implementing Clean Architecture, CQRS/DDD, and Event-Driven patterns in mission-critical production environments. Expert in AI/ML integration (Vertex AI), DevOps automation (CI/CD, Kubernetes), and optimization of high-concurrency systems. Certified Scrum Master with a strong focus on quality, scalability, and continuous value delivery.</p>
+                <p data-i18n="sidebar.about.text">Senior software engineer with 10+ years of experience developing high-impact enterprise and financial solutions. Currently at Intive, serving as Software Engineer for GCH (the US Short Code Registry), building scalable backend systems with NestJS, TypeScript, PostgreSQL, and AWS. Previously led full-stack development for Banco Supervielle (Argentina) with .NET Core, Angular, Flutter, GCP, and AWS. Creator of Finaan, an AI-powered accounting platform built with Flutter, Go, and Google Cloud (Vertex AI, Cloud Run, Firestore). Proven track record implementing Clean Architecture, CQRS/DDD, and Event-Driven patterns in mission-critical production environments. Certified Scrum Master with a strong focus on quality, scalability, and continuous value delivery.</p>
             </section>
 
             <section id="habilidades" aria-labelledby="habilidades-heading">
@@ -62,16 +62,16 @@
                     <strong data-i18n="sidebar.skills.languages">Languages:</strong> C#, Python, Java, TypeScript, Dart, Go, HTML/CSS, JS
                 </div>
                 <div class="skill-category">
-                    <strong data-i18n="sidebar.skills.frameworks">Frameworks:</strong> .NET Core (6.0/8.0), Angular, Spring Boot, React, Flutter
+                    <strong data-i18n="sidebar.skills.frameworks">Frameworks:</strong> .NET Core (6.0/8.0), NestJS, Angular, Spring Boot, React, Flutter
                 </div>
                 <div class="skill-category">
-                    <strong data-i18n="sidebar.skills.patterns">Patterns/Libs:</strong> MediatR, Entity Framework Core, NgRx, Riverpod, AutoMapper, RabbitMQ
+                    <strong data-i18n="sidebar.skills.patterns">Patterns/Libs:</strong> MediatR, Entity Framework Core, Prisma, NgRx, Riverpod, BullMQ, AutoMapper, RabbitMQ
                 </div>
                 <div class="skill-category">
-                    <strong data-i18n="sidebar.skills.databases">Databases:</strong> SQL (PostgreSQL, SQL Server, Oracle), NoSQL (Mongo, Firestore, DynamoDB)
+                    <strong data-i18n="sidebar.skills.databases">Databases:</strong> SQL (PostgreSQL, SQL Server, Oracle), NoSQL (Mongo, Firestore, DynamoDB, Redis)
                 </div>
                 <div class="skill-category">
-                    <strong data-i18n="sidebar.skills.cloud">Cloud/DevOps:</strong> AWS (Lambda, DynamoDB, S3, SQS, API Gateway, EC2, Cognito, KMS), Firebase, GCP, Azure DevOps, Docker, Kubernetes
+                    <strong data-i18n="sidebar.skills.cloud">Cloud/DevOps:</strong> AWS (Lambda, DynamoDB, S3, SQS, API Gateway, EC2, Cognito, KMS, X-Ray, QuickSight), GCP (Cloud Run, Vertex AI, Cloud Storage), Firebase, Azure DevOps, Docker, Kubernetes
                 </div>
                 <div class="skill-category">
                     <strong data-i18n="sidebar.skills.methodologies">Methodologies:</strong> SCRUM, CI/CD, TDD, BDD, DDD, Clean Architecture, CQRS
@@ -114,8 +114,30 @@
             <h2 id="experiencia-heading"><i class="fas fa-briefcase"></i> <span data-i18n="main.experience.title">Work Experience</span></h2>
             <article>
                 <div class="article-header">
+                    <h3 data-i18n="main.expFinaan.role">Software Architect - Finaan </h3>
+                    <time datetime="2025-06-01" data-i18n="main.expFinaan.date">Jun 2025 – Present</time>
+                </div>
+                <p data-i18n="main.expFinaan.location">Remote</p>
+                <p data-i18n-html="main.expFinaan.desc">• <strong>Mobile:</strong> Multi-platform app (iOS, Android, Web, Desktop) with Flutter/Dart, Clean Architecture + Provider pattern, GoRouter, GetIt/Injectable DI, Drift ORM with SQLCipher encryption, ML Kit for document scanning.<br>
+                • <strong>Backend:</strong> Go 1.24 microservices on Google Cloud Run with Vertex AI integration for invoice OCR, intelligent expense categorization, and financial analysis.<br>
+                • <strong>Cloud/Infra:</strong> GCP (Cloud Run, Vertex AI, Cloud Storage, KMS, Secret Manager), Firebase (Auth, Firestore, Hosting), GitHub Actions CI/CD.</p>
+                <span class="project-highlight" data-i18n-html="main.expFinaan.projects">• <strong>Product:</strong> AI-powered accounting platform for SMEs — invoice processing, receipt scanning, financial reporting (Excel/CSV export), voice input, email integration, and real-time cross-platform sync.</span>
+            </article>
+            <article>
+                <div class="article-header">
+                    <h3 data-i18n="main.expGCH.role">Software Engineer - GCH (Short Code Registry) – Intive</h3>
+                    <time datetime="2026-03-01" data-i18n="main.expGCH.date">Mar 2026 – Present</time>
+                </div>
+                <p data-i18n="main.expGCH.location">Remote</p>
+                <p data-i18n-html="main.expGCH.desc">• <strong>Backend:</strong> RESTful APIs with NestJS/TypeScript (modular DDD architecture), Prisma ORM with PostgreSQL 16, Redis caching, BullMQ for background job processing, Swagger/OpenAPI documentation, Jest testing.<br>
+                • <strong>Cloud/DevOps:</strong> AWS (Cognito, S3, QuickSight, X-Ray, ECR), Google Cloud Storage, Docker multi-stage builds, Kubernetes (multi-env deployments with External Secrets), Bitbucket Pipelines CI/CD.<br>
+                • <strong>Integrations:</strong> Chargebee (payment/billing), USPS, SMS aggregators, content providers for short code lifecycle management.</p>
+                <span class="project-highlight" data-i18n-html="main.expGCH.projects">• <strong>Project:</strong> SCR Platform - Short code reservation, leasing, order processing, invoicing, and analytics platform for the US telecommunications industry.</span>
+            </article>
+            <article>
+                <div class="article-header">
                     <h3 data-i18n="main.exp1.role">Lead Full-Stack Developer - Banco Supervielle – Intive</h3>
-                    <time datetime="2021-11-27" data-i18n="main.exp1.date">Nov 27, 2021 – Present</time>
+                    <time datetime="2021-11-27" data-i18n="main.exp1.date">Nov 27, 2021 – Mar 2026</time>
                 </div>
                 <p data-i18n="main.exp1.location">Córdoba, Argentina</p>
                 <p data-i18n-html="main.exp1.desc">• <strong>Backend:</strong> RESTful APIs and microservices with .NET Core 6.0/8.0 (Clean Architecture, CQRS + MediatR, Entity Framework Core, OAuth 2.0), serverless AWS Lambda functions with Python 3.11, RabbitMQ and AWS SQS integration for asynchronous messaging.<br>

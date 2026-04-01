@@ -39,6 +39,12 @@
   "main.expGCH.desc": "\u2022 <strong>Backend:</strong> APIs RESTful con NestJS/TypeScript (arquitectura DDD modular), Prisma ORM con PostgreSQL 16, cach\u00e9 Redis, BullMQ para procesamiento de tareas en segundo plano, documentaci\u00f3n Swagger/OpenAPI, testing con Jest.<br>\u2022 <strong>Cloud/DevOps:</strong> AWS (Cognito, S3, QuickSight, X-Ray, ECR), Google Cloud Storage, Docker multi-stage, Kubernetes (despliegues multi-entorno con External Secrets), CI/CD Bitbucket Pipelines.<br>\u2022 <strong>Integraciones:</strong> Chargebee (pagos/facturaci\u00f3n), USPS, agregadores SMS, proveedores de contenido para gesti\u00f3n del ciclo de vida de short codes.",
   "main.expGCH.projects": "\u2022 <strong>Proyecto:</strong> Plataforma SCR - Reserva de short codes, leasing, procesamiento de \u00f3rdenes, facturaci\u00f3n y anal\u00edticas para la industria de telecomunicaciones de EE.UU.",
 
+  "main.expFinaan.role": "Software Architect - Finaan (Proyecto Personal)",
+  "main.expFinaan.date": "Jun 2025 \u2013 Actualmente",
+  "main.expFinaan.location": "Remoto",
+  "main.expFinaan.desc": "\u2022 <strong>Mobile:</strong> App multiplataforma (iOS, Android, Web, Desktop) con Flutter/Dart, Clean Architecture + patr\u00f3n Provider, GoRouter, GetIt/Injectable DI, Drift ORM con encriptaci\u00f3n SQLCipher, ML Kit para escaneo de documentos.<br>\u2022 <strong>Backend:</strong> Microservicios Go 1.24 en Google Cloud Run con integraci\u00f3n Vertex AI para OCR de facturas, categorizaci\u00f3n inteligente de gastos y an\u00e1lisis financiero.<br>\u2022 <strong>Cloud/Infra:</strong> GCP (Cloud Run, Vertex AI, Cloud Storage, KMS, Secret Manager), Firebase (Auth, Firestore, Hosting), CI/CD GitHub Actions.",
+  "main.expFinaan.projects": "\u2022 <strong>Producto:</strong> Plataforma contable potenciada con IA para PyMEs \u2014 procesamiento de facturas, escaneo de recibos, reportes financieros (exportaci\u00f3n Excel/CSV), entrada por voz, integraci\u00f3n email y sincronizaci\u00f3n multiplataforma en tiempo real.",
+
   "main.exp1.role": "Lead Full-Stack Developer - Banco Supervielle \u2013 Intive",
   "main.exp1.date": "27 Nov 2021 \u2013 Mar 2026",
   "main.exp1.location": "Córdoba, Argentina",
@@ -100,8 +106,6 @@
   "main.projects.template": "Plantilla",
   "main.projects.viewDemo": "Ver demo",
   "main.projects.viewProject": "Ver proyecto",
-  "main.projects.miniCrud.desc": "Aplicación CRUD full-stack con backend Node.js y frontend JavaScript vanilla. Demuestra diseño de API RESTful, arquitectura cliente-servidor y principios de Clean Code.",
-  "main.projects.spfx.desc": "Plantilla starter de SharePoint Framework con prompts de desarrollo asistido por IA. Muestra patrones de desarrollo de web parts SPFx de nivel empresarial.",
   "main.projects.personal": "Personal",
   "main.projects.finaan.desc": "Aplicaci\u00f3n contable multiplataforma potenciada con IA para PyMEs. Incluye procesamiento OCR de facturas con Vertex AI, categorizaci\u00f3n inteligente de gastos, reportes financieros y sincronizaci\u00f3n multiplataforma. Construida con Clean Architecture, patr\u00f3n Provider y microservicios en Go sobre Google Cloud Run."
 }
